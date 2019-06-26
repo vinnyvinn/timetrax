@@ -1,0 +1,16 @@
+{{--  
+<script type="text/javascript">
+$(function(){
+  $("#the_select").change(function(){
+    window.location="<?php echo Request::url(); ?>" + '?id=' + this.value
+  });
+});
+</script>
+
+<script type="text/javascript">
+    $(function(){
+      $('.date-filter').change(function(){
+        window.location="<?php echo Request::url(); ?>" + '?date=' + this.value
+      });
+    });
+    </script>  --}}

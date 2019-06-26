@@ -1,0 +1,79 @@
+/* Home page styling */
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+body {
+    background-color: beige;
+}
+#login {
+    border: #e1e1e1 1px solid;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fdfdfd;
+}
+#login h3 {
+    border-bottom: #ccc 2px solid;
+}
+#login .btn {
+    width: 100%;
+}
+#login .btn-success {
+    color: #5cb85c;
+    background-color: rgba(0, 0, 0, 0);
+}
+#login .btn-success:hover {
+    color: #3a963a
+}
+#login .btn-danger {
+    color: #d9534f;
+    background-color: rgba(0, 0, 0, 0);
+}
+#login .btn-danger:hover {
+    color: #b7312d;
+}
+#login > div:last-child > div:first-child > a:link, #login > div:last-child > div:first-child > a:visited {
+    color: #d05656;
+    text-decoration: none;
+}
+#login > div:last-child > div:first-child > a:hover {
+    color: #dd7a7a;
+    text-decoration: none;
+}
+#login > div:last-child > div:first-child > a:active {
+    color: #a82929;
+}
+#login > div:last-child > div:last-child > a:link, #login > div:last-child > div:last-child > a:visited {
+    color: #009ced;
+    text-decoration: none;
+}
+#login > div:last-child > div:last-child > a:hover {
+    color: #38bbff;
+    text-decoration: none;
+}
+#login > div:last-child > div:last-child > a:active {
+    color: #2a5f7a;
+}
+#errors {
+    list-style-type: none;
+}
+#errors > li:before {
+    font-family: "FontAwesome";
+    content: "\f06c";
+    margin-right: 5px;
+}
+
+/* overtime part */
+#filters {
+    margin-bottom: 20px;
+}
+
+/* settings part*/
+th {
+    text-align: center;
+}
+.ui-slider-handle--custom {
+    line-height: 1.25em;
+    width: 7% !important;
+    height: 1.3em !important;
+    text-align: center;
+}
